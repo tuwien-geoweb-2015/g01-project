@@ -23,7 +23,11 @@ Milestones:
   - Finale Testphase
 
 - Präsentation 
-- 
+  - Vorstellen der Web-Applikation
+
+  
+
+Gruppe g01: Grießler, Logar, Oberaufner
 
 
 
