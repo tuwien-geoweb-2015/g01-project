@@ -7,7 +7,7 @@ var wmsLayer = new ol.layer.Image({
     url: 'http://student.ifip.tuwien.ac.at/geoserver/wms',
     params: {'LAYERS': 'g01_2015:normalized,g01_2015:BEZIRKSGRENZEOGDPolygon,g01_2015:CARSHARINGOGDPoint,g01_2015:CITYBIKEOGDPoint,g01_2015:OEFFHALTESTOGDPoint'}
   }),
-  opacity: 0.6
+  opacity: 0.8
 });
 
 // Map object
@@ -17,7 +17,7 @@ olMap = new ol.Map({
   layers: [osmLayer, wmsLayer],
   view: new ol.View({
     center: ol.proj.fromLonLat([16.373064, 48.20833]),
-    zoom: 12,
+    zoom: 11.5,
     maxZoom: 18
   })
 });
