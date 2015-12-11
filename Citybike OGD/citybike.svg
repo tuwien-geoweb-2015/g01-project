@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="citybike-icon" role="img" aria-labelledby="title desc" 
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+	 viewBox="0 0 19 19" preserveAspectRatio="xMidYMid meet" style="enable-background:new 0 0 19 19;" xml:space="preserve">
+<title id="title">Citybike Station</title>
+<desc id="desc">An diesem Platz gibt es eine Citybike Station.</desc>
+<style type="text/css">
+<![CDATA[
+	.icon{fill:#FAFAFA;}
+	.background{fill-rule:evenodd;clip-rule:evenodd;fill:#E40F1B;}
+]]>
+</style>
+<rect role="presentation" id="background" class="background" x="0" y="0" rx="3" ry="3" width="19" height="19" />
+<path role="presentation" id="icon-citybike" class="icon" d="M12.01,5.86v3c0.52-0.3,1.13-0.46,1.82-0.46c1.04,0,1.94,0.38,2.7,1.14
+	c0.76,0.76,1.14,1.66,1.14,2.7c0,1.04-0.38,1.93-1.14,2.67c-0.76,0.74-1.66,1.11-2.7,1.11c-1.56,0-2.67-0.65-3.32-1.95l1.5-0.52
+	c0.52,0.78,1.21,1.11,2.08,0.98c1.52-0.13,2.21-0.98,2.08-2.54c-0.22-1.56-1.08-2.25-2.6-2.08c-0.39,0.04-0.72,0.15-0.98,0.32
+	c-0.22,0.17-0.32,0.28-0.32,0.33c-0.04,0.04-0.08,0.08-0.1,0.1c-0.02,0.02-0.6-0.7-1.72-2.18V6.9L12.01,5.86z M2.44,9.53
+	c-0.74,0.76-1.11,1.66-1.11,2.7c0,1.04,0.37,1.93,1.11,2.67c0.74,0.74,1.63,1.11,2.67,1.11c1.47,0,2.6-0.65,3.38-1.95l-0.78-0.26
+	L6.99,13.6c-0.52,0.74-1.24,1.04-2.15,0.91c-1.56-0.13-2.23-0.98-2.02-2.54c0.13-1.56,1-2.25,2.6-2.08C6.13,9.98,6.69,10.35,7.13,11
+	l0.52-0.19l0.91-0.33c-0.04,0-0.07-0.01-0.1-0.03c-0.02-0.02-0.03-0.05-0.03-0.1l-0.13-0.2v-0.06C7.52,8.96,6.45,8.39,5.11,8.39
+	C4.07,8.39,3.18,8.77,2.44,9.53z M6.41,7.09l3.58,4.1l-1.36,1.95l1.23,0.78l1.95-2.86L8.62,7.35l3.38-2.02V3.58L6.41,7.09z
+	 M14.35,3.97c0-0.65-0.3-0.98-0.91-0.98c-0.65,0-0.97,0.33-0.97,0.98c0,0.61,0.32,0.91,0.97,0.91C14.04,4.88,14.35,4.58,14.35,3.97z
+	"/>
+</svg>

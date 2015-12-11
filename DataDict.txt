@@ -1,0 +1,10 @@
+DISTRICT_POP_RATIO;Anteil der Gesamtbevölkerung
+POP_DENSITY;Bevölkerungsdichte
+RATE_M;Anteil männlich
+RATE_F;Anteil weiblich
+RATE_FOR_NATIONAL;Anteil fremder Staatsbürger
+RATE_FOR_BORN;Anteil fremdes Geburtsland
+RATE_MIG_BACKGROUND;Anteil Migrationshintergrund
+YOUTH_RATIO;Anteil Jugendlicher <19
+ADULT_RATIO;Anteil erwerbsfähiger Erwachsener 20-64
+AGE_RATIO;Anteil Senioren >65
