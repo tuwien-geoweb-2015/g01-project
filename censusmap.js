@@ -86,7 +86,7 @@ olMap.on('singleclick', function(evt) {
 var form = document.getElementById('navform');
 form.onsubmit = function(evt) {
   var url = 'http://nominatim.openstreetmap.org/search?format=json&q=';
-  url = form.query.value;
+  url += form.query.value;
   var xhr = new XMLHttpRequest();
   xhr.open("GET", url, true);
   xhr.onload = function() {
@@ -95,7 +95,7 @@ form.onsubmit = function(evt) {
       var bbox = result[0].boundingbox;
       olMap.getView().fit(ol.proj.transformExtent([parseFloat(bbox[2]),
           parseFloat(bbox[0]), parseFloat(bbox[3]), parseFloat(bbox[1])],
-          'EPSG:4326', 'EPSG:4326'), olMap.getSize());
+          'EPSG:4326', 'EPSG:3857'), olMap.getSize());
     }
   };
   xhr.send();
