@@ -57,6 +57,7 @@ olMap.on('singleclick', function(evt) {
   $('#popup')
     .popover({content: function() { return $('#popup-content').html(); }})
     .popover('show');
+    
   // Close popup when user clicks on the 'x'
   $('.popover-title').click(function() {
     $('#popup').popover('hide');
@@ -85,7 +86,7 @@ olMap.on('singleclick', function(evt) {
 var form = document.getElementById('navform');
 form.onsubmit = function(evt) {
   var url = 'http://nominatim.openstreetmap.org/search?format=json&q=';
-  url += form.query.value;
+  url = form.query.value;
   var xhr = new XMLHttpRequest();
   xhr.open("GET", url, true);
   xhr.onload = function() {
