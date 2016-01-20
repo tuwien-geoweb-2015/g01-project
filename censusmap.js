@@ -5,7 +5,7 @@ var osmLayer = new ol.layer.Tile({source: new ol.source.OSM()});
 var wmsLayer = new ol.layer.Image({
   source: new ol.source.ImageWMS({
     url: 'http://student.ifip.tuwien.ac.at/geoserver/wms',
-    params: {'LAYERS': 'g01_2015:normalized,g01_2015:BEZIRKSGRENZEOGDPolygon,g01_2015:CARSHARINGOGDPoint,g01_2015:CITYBIKEOGDPoint,g01_2015:OEFFHALTESTOGDPoint'}
+    params: {'LAYERS': 'g01_2015:normalized,g01_2015:CARSHARINGOGDPoint,g01_2015:CITYBIKEOGDPoint,g01_2015:OEFFHALTESTOGDPoint,g01_2015:BEZIRKSGRENZEOGDPolygon'}
   }),
   opacity: 0.8
 });
